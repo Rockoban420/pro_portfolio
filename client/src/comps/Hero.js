@@ -1,11 +1,16 @@
 import React from 'react';
 import video from '../assets/video.mp4';
 
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
-const Hero = () => {
+const Hero = ({ref}) => {
+    const { scrollYProgress } = useScroll({
+        offset: ["start start", "end start"]
+    });
+    const scaleAnim = useTransform(scrollYProgress, [0, 1], ["0%", "120%"]);
     return (
         <div
+            ref={ref}
             className='flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900'
         >
             <video
@@ -15,16 +20,17 @@ const Hero = () => {
                 muted
                 src={video}
             />
-            <div
+            <motion.div
                 style={{
-                    mixBlendMode: 'difference'
+                    mixBlendMode: 'difference',
+                    y: scaleAnim,
                 }}
                 className='mr-[30%]'
             >
-                <motion.div
+                {/* <motion.div
                     animate={{ y: -1000}}
                     transition={{ duration: 2, delay: 6 }}
-                >
+                > */}
                 <motion.h1
                     initial={{ opacity: 0, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -86,11 +92,11 @@ const Hero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 3 }}
                         className='text-6xl underline font-bold text-gray-800 dark:text-white md:text-7xl'
-                    >Front End Developer
+                    >Full Stack Developer
                     </motion.span>
                 </h3>
-                </motion.div>
-            </div>
+                {/* </motion.div> */}
+            </motion.div>
         </div>
     );
 };
