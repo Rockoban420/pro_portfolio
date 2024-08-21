@@ -15,7 +15,7 @@ function Work({ref, currentTab, setCurrentTab}) {
             style = {{
                 y: -scaleAnim
             }}
-            className='flex flex-col items-center justify-center md:h-screen bg-gray-100 dark:bg-gray-900 z-40'
+            className='flex flex-col items-center justify-center md:h-auto bg-gray-100 dark:bg-gray-900 z-40'
         >
             <motion.h1
                 className='text-4xl text-white font-bold mt-10'
@@ -85,7 +85,21 @@ function Work({ref, currentTab, setCurrentTab}) {
                         </p>
                     </div>
                     <div
-                        className='bg-slate-400 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
+                        className='bg-green-400 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
+                    >
+                        <h1
+                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
+                        >
+                            Shopify Projects
+                        </h1>
+                        <p
+                            className='text-gray-800 dark:text-white mx-5'
+                        >
+                            Created 2 different Shopify stores for personal AI generated products with Printify.
+                        </p>
+                    </div>
+                    <div
+                        className='bg-blue-600 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
                     >
                         <h1
                             className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
@@ -96,6 +110,20 @@ function Work({ref, currentTab, setCurrentTab}) {
                             className='text-gray-800 dark:text-white mx-5'
                         >
                             Full stack web development program that teaches the MERN/MEARN stack.
+                        </p>
+                    </div>
+                    <div
+                        className='bg-green-800 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
+                    >
+                        <h1
+                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
+                        >
+                            UC Berkeley Instructional Staff
+                        </h1>
+                        <p
+                            className='text-gray-800 dark:text-white mx-5'
+                        >
+                            After finishing bootcamp I applied to be a Teacher Assistant and was accepted. I helped students with their projects and homework.
                         </p>
                     </div>
                 </div>

@@ -11,8 +11,13 @@ const About = () => {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
         >
+            <div
+                className='flex flex-col items-center mt-5 justify-center md:h-auto'
+            >
+                <h1 className="text-4xl font-bold justify-center">About</h1>
+            </div>
         <div className='flex flex-col'>
-        <div className="flex flex-col items-center justify-center w-[80%] mx-20 md:flex-row md:items-start md:space-x-8 px-4 md:px-8 lg:px-16 py-12">
+        <div className="flex flex-col items-center justify-center w-[80%] mx-10 md:mx-20 md:flex-row md:items-start md:space-x-8 px-4 md:px-8 lg:px-16 py-12">
             <div className="mb-8 bg-cover bg-center items-center mt-7 rounded-full shadow-lg"
             >
                 <img
@@ -22,7 +27,6 @@ const About = () => {
                 />
             </div>
             <div className="text-left align-middle items-center h-[100%] mt-5 md:mt-8">
-                <h1 className="text-2xl md:text-3xl font-bold mb-4">About Me</h1>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0 }}
