@@ -11,7 +11,7 @@ const Hero = ({ref}) => {
     return (
         <div
             ref={ref}
-            className='flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900'
+            className='flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900 z-0'
         >
             <video
                 className='absolute object-cover w-full h-full opacity-70'
