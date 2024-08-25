@@ -10,7 +10,7 @@ const Hero = ({ ref }) => {
         offset: ["start start", "end start"]
     });
 
-    const words = ["a Full Stack Developer", "a Web Designer", "an Automation Expert"];
+    const words = ["Web Developer", "Web Designer", "Automation Expert", "AI Enthusiast", "Student", "Teacher", "Traveler", "Dreamer"];
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
@@ -108,9 +108,12 @@ const Hero = ({ ref }) => {
                         className='text-6xl font-bold text-gray-800 dark:text-white md:text-7xl'
                     >I'm a&nbsp;
                     </motion.span>
-                    <h1>
-                        I'm{" "}
                         <AnimatePresence>
+                            <motion.span
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 1, delay: 3 }}
+                            >
                             <motion.span
                                 key={currentWordIndex}
                                 initial="hidden"
@@ -118,13 +121,13 @@ const Hero = ({ ref }) => {
                                 exit="exit"
                                 variants={variants}
                                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                                style={{ position: 'absolute', whiteSpace: 'nowrap' }}
-                                className='text-6xl font-bold text-gray-800 dark:text-white md:text-7xl'
+                                style={{ position: 'absolute' }}
+                                className='text-6xl underline block md:inline w-full font-bold text-gray-800 dark:text-white md:text-7xl'
                             >
                                 {words[currentWordIndex]}
                             </motion.span>
+                            </motion.span>
                         </AnimatePresence>
-                    </h1>
                 </h3>
                 {/* </motion.div> */}
             </motion.div>

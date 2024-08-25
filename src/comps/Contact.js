@@ -1,6 +1,6 @@
 import React from 'react';
 // Import the relevant icons
-import { FaEnvelope, FaWhatsapp, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaEnvelope, FaWhatsapp, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 import { motion } from 'framer-motion';
 
@@ -52,6 +52,12 @@ const Contact = () => {
                             <a href='https://www.instagram.com/yourprofile' target='_blank' rel='noopener noreferrer'
                                 className='flex items-center text-pink-500 hover:text-pink-300'>
                                 <FaInstagram className='mr-2' /> Instagram
+                            </a>
+                            <a
+                                href='https://www.github.com/rockoban420' target='_blank' rel='noopener noreferrer'
+                                className='flex items-center text-gray-300 hover:text-white'
+                            >
+                                <FaGithub className='mr-2' /> GitHub
                             </a>
                         </div>
                     </div>
