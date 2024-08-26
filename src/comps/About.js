@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/realme.jpeg';
+import profileImage from '../assets/me.jpeg';
 
 import { motion } from 'framer-motion';
 
@@ -23,7 +23,7 @@ const About = () => {
                 <img
                 src={profileImage}
                 alt="Profile"
-                className="rounded-full items-center mt-5 w-[16rem] h-[18rem] md:w-[65rem] md:h-[15rem] lg:w-[40rem] lg:h-[17rem]"
+                className="rounded-full items-center mt-5 w-[15rem] h-[20rem] md:w-[65rem] md:h-[15rem] lg:w-[40rem] lg:h-[17rem]"
                 />
             </div>
             <div className="text-left align-middle items-center h-[100%] mt-5 md:mt-8">

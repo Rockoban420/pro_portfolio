@@ -34,14 +34,9 @@ const Hero = ({ ref }) => {
             ref={ref}
             className='flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900 z-0'
         >
-            <video
-                className='absolute object-cover w-full h-full opacity-70'
-                autoPlay
-                loop
-                muted
-                playsInline
-                src={video}
-            />
+            <video className='absolute object-cover w-full h-full opacity-70' width="100%" allowfullscreen="true" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop">
+                <source src={video} type="video/mp4" />
+            </video>
             <motion.div
                 style={{
                     mixBlendMode: 'difference',
@@ -109,12 +104,12 @@ const Hero = ({ ref }) => {
                         className='text-6xl font-bold text-gray-800 dark:text-white md:text-7xl'
                     >I'm a&nbsp;
                     </motion.span>
-                        <AnimatePresence>
-                            <motion.span
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ duration: 1, delay: 3 }}
-                            >
+                    <AnimatePresence>
+                        <motion.span
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 1, delay: 3 }}
+                        >
                             <motion.span
                                 key={currentWordIndex}
                                 initial="hidden"
@@ -127,8 +122,8 @@ const Hero = ({ ref }) => {
                             >
                                 {words[currentWordIndex]}
                             </motion.span>
-                            </motion.span>
-                        </AnimatePresence>
+                        </motion.span>
+                    </AnimatePresence>
                 </h3>
                 {/* </motion.div> */}
             </motion.div>
