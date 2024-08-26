@@ -34,7 +34,7 @@ const Hero = ({ ref }) => {
             ref={ref}
             className='flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900 z-0'
         >
-            <video className='absolute object-cover w-full h-full opacity-70' width="100%" allowfullscreen="true" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop">
+            <video className='absolute autoplay object-cover w-full h-full opacity-70' width="100%" allowfullscreen="true" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop">
                 <source src={video} type="video/mp4" />
             </video>
             <motion.div
