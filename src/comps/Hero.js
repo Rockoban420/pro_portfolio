@@ -39,6 +39,7 @@ const Hero = ({ ref }) => {
                 autoPlay
                 loop
                 muted
+                playsInline
                 src={video}
             />
             <motion.div
