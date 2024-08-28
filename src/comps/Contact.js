@@ -45,11 +45,11 @@ const Contact = () => {
                     <div className='bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-6 rounded-lg mb-4 shadow-lg w-full'>
                         <h2 className='text-2xl font-semibold mb-4'>Connect with Me</h2>
                         <div className='flex space-x-6'>
-                            <a href='https://www.linkedin.com/in/yourprofile' target='_blank' rel='noopener noreferrer'
+                            <a href='https://www.linkedin.com/in/lautaro-avellaneda-157b78178' target='_blank' rel='noopener noreferrer'
                                 className='flex items-center text-blue-700 hover:text-blue-500'>
                                 <FaLinkedin className='mr-2' /> LinkedIn
                             </a>
-                            <a href='https://www.instagram.com/yourprofile' target='_blank' rel='noopener noreferrer'
+                            <a href='https://www.instagram.com/lautaroavellaneda' target='_blank' rel='noopener noreferrer'
                                 className='flex items-center text-pink-500 hover:text-pink-300'>
                                 <FaInstagram className='mr-2' /> Instagram
                             </a>
