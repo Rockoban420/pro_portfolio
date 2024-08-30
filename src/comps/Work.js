@@ -129,6 +129,65 @@ function Work({ref, currentTab, setCurrentTab}) {
                         </div>
                     </div>
                     <div
+                        className='bg-green-800 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
+                    >
+                        <div
+                            className='flex flex-row justify-between w-full'
+                        >
+                        <h1
+                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
+                        >
+                            UC Berkeley Instructional Staff
+                        </h1>
+                        <h1
+                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
+                        >
+                            Teacher Assistant
+                        </h1>
+                        </div>
+                        <p
+                            className='text-gray-800 dark:text-white mx-5'
+                        >
+                            After finishing bootcamp I applied to be a Teacher Assistant and was accepted. I helped students with their projects and homework.
+                            Also tutored friends and family in coding.
+                        </p>
+                        <div
+                            className='flex flex-row justify-start mx-5'
+                        >
+                            <FaReact className='text-white scale-150 m-2' />
+                            <FaHtml5 className='text-white scale-150 m-2' />
+                            <FaCss3 className='text-white scale-150 m-2' />
+                            <FaNodeJs className='text-white scale-150 m-2' />
+                            <FaDatabase className='text-white scale-150 m-2'/>
+                            <SiApollographql className='text-white scale-150 m-2' />
+                            <SiMongodb className='text-white scale-150 m-2' />
+                        </div>
+                    </div>
+                    <div
+                        className='bg-blue-600 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
+                    >
+                        <div
+                            className='flex flex-row justify-between w-full'
+                        >
+                        <h1
+                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
+                        >
+                            Cannablue
+                        </h1>
+                        <h1
+                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
+                        >
+                            Work
+                        </h1>
+                        </div>
+                        <p
+                            className='text-gray-800 dark:text-white mx-5'
+                        >
+                            Delivery service for cannabis products in the Bay Area and South Lake Tahoe. I helped with the website and the app.
+                            Trained new employees for driver, inventory and dispatcher/ customer service roles.
+                        </p>
+                    </div>
+                    <div
                         className='bg-orange-400 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
                     >
                         <div
@@ -186,74 +245,6 @@ function Work({ref, currentTab, setCurrentTab}) {
                             className='flex flex-row justify-start mx-5'
                         >
                             <FaShopify className='text-white scale-150 m-2' />
-                        </div>
-                    </div>
-                    <div
-                        className='bg-blue-600 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
-                    >
-                        <div
-                            className='flex flex-row justify-between w-full'
-                        >
-                        <h1
-                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
-                        >
-                            UC Berkeley Coding Bootcamp
-                        </h1>
-                        <h1
-                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
-                        >
-                            Certificate
-                        </h1>
-                        </div>
-                        <p
-                            className='text-gray-800 dark:text-white mx-5'
-                        >
-                            Full stack web development program that teaches the MERN/MEARN stack.
-                        </p>
-                        <div
-                            className='flex flex-row justify-start mx-5'
-                        >
-                            <FaReact className='text-white scale-150 m-2' />
-                            <FaHtml5 className='text-white scale-150 m-2' />
-                            <FaCss3 className='text-white scale-150 m-2' />
-                            <FaNodeJs className='text-white scale-150 m-2' />
-                            <FaDatabase className='text-white scale-150 m-2'/>
-                            <SiApollographql className='text-white scale-150 m-2' />
-                            <SiMongodb className='text-white scale-150 m-2' />
-                        </div>
-                    </div>
-                    <div
-                        className='bg-green-800 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
-                    >
-                        <div
-                            className='flex flex-row justify-between w-full'
-                        >
-                        <h1
-                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
-                        >
-                            UC Berkeley Instructional Staff
-                        </h1>
-                        <h1
-                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
-                        >
-                            Teacher Assistant
-                        </h1>
-                        </div>
-                        <p
-                            className='text-gray-800 dark:text-white mx-5'
-                        >
-                            After finishing bootcamp I applied to be a Teacher Assistant and was accepted. I helped students with their projects and homework.
-                        </p>
-                        <div
-                            className='flex flex-row justify-start mx-5'
-                        >
-                            <FaReact className='text-white scale-150 m-2' />
-                            <FaHtml5 className='text-white scale-150 m-2' />
-                            <FaCss3 className='text-white scale-150 m-2' />
-                            <FaNodeJs className='text-white scale-150 m-2' />
-                            <FaDatabase className='text-white scale-150 m-2'/>
-                            <SiApollographql className='text-white scale-150 m-2' />
-                            <SiMongodb className='text-white scale-150 m-2' />
                         </div>
                     </div>
                 </div>

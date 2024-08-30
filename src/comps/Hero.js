@@ -10,7 +10,7 @@ const Hero = ({ ref }) => {
         offset: ["start start", "end start"]
     });
 
-    const words = ["Web Developer", "Web Designer", "Automation Expert", "AI Enthusiast", "Student", "Teacher", "Traveler", "Dreamer"];
+    const words = ["a Web Developer", "a Web Designer", "an Automation Expert", "an AI Enthusiast", "a Student", "a Teacher"];
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
@@ -32,7 +32,7 @@ const Hero = ({ ref }) => {
     return (
         <div
             ref={ref}
-            className='flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900 z-0'
+            className='flex flex-col items-center justify-center h-[95vh] bg-gray-100 dark:bg-gray-900 z-0'
         >
             <video className='absolute autoplay object-cover w-full h-full opacity-70' width="100%" allowfullscreen="true" muted="muted" autoplay="autoplay" playsinline="playsinline" loop="loop">
                 <source src={video} type="video/mp4" />
@@ -102,7 +102,7 @@ const Hero = ({ ref }) => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 2.5 }}
                         className='text-6xl font-bold text-gray-800 dark:text-white md:text-7xl'
-                    >I'm a&nbsp;
+                    >I'm&nbsp;
                     </motion.span>
                     <AnimatePresence>
                         <motion.span
