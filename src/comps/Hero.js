@@ -10,7 +10,7 @@ const Hero = ({ ref }) => {
         offset: ["start start", "end start"]
     });
 
-    const words = ["a Web Developer", "a Web Designer", "an Automation Expert", "an AI Enthusiast", "a Student", "a Teacher"];
+    const words = ["a Web Developer", "a Web Designer", "a Data Analyst", "an AI Enthusiast", "a Student", "a Teacher"];
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
