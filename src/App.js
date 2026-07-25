@@ -18,39 +18,39 @@ function App() {
     >
       {
         currentTab === 'home' ? (
-        <div>
-          <Hero
-            ref={ref}
-          />
-          <div
-            className='shadow-2xl'
-          >
-          <Work
-            ref={ref}
-            currentTab={currentTab}
-            setCurrentTab={setCurrentTab}
-          />
-          </div>
-          <About
-            ref={ref}
-          />
-          <div
-            className='shadow-2xl'
-          >
-          <Testimonials
-            ref={ref}
-          />
-          </div>
-          <Contact
-            ref={ref}
-          />
+          <div>
+            <Hero
+              ref={ref}
+            />
+            <div
+              className='shadow-2xl'
+            >
+              <Work
+                ref={ref}
+                currentTab={currentTab}
+                setCurrentTab={setCurrentTab}
+              />
+            </div>
+            <About
+              ref={ref}
+            />
+            <div
+              className='shadow-2xl'
+            >
+              <Testimonials
+                ref={ref}
+              />
+            </div>
+            <Contact
+              ref={ref}
+            />
 
-        </div>
-        ) : currentTab === 'Patbot' ? <Patbot setCurrentTab={setCurrentTab}/>
-            : currentTab === 'PocketMenu' ? <h1>Pocket Menu</h1>
+          </div>
+        ) : currentTab === 'Patbot' ? <Patbot setCurrentTab={setCurrentTab} />
+          : currentTab === 'PocketMenu' ? <h1>Pocket Menu</h1>
             : currentTab === 'Collaboration' ? <h1>Collaboration</h1>
-            : currentTab === 'Bootcamp' ? <h1>Other Projects</h1>
-            : ''
+              : currentTab === 'Bootcamp' ? <h1>Other Projects</h1>
+                : ''
       }
     </div>
   );

@@ -76,7 +76,7 @@ function Work({ref, currentTab, setCurrentTab}) {
                         <p
                             className='text-gray-800 dark:text-white mx-5'
                         >
-                            Started by analyzing user feedback, then compared that to their session events using Dynatrace. Then I moved on to analyzing and resolving problem tickets with internal developer teams.
+                            Analyzed user session data and drop-off patterns to systematically optimize core digital banking interfaces. Partnered closely with engineering task forces to diagnose, isolate, and debug critical production-level interface errors, directly reducing user friction.
                         </p>
                         <div
                             className='flex flex-row justify-start mx-5'
@@ -110,7 +110,7 @@ function Work({ref, currentTab, setCurrentTab}) {
                         <p
                             className='text-gray-800 dark:text-white mx-5'
                         >
-                            Startup project that uses AI to help parents with their children's mental health.
+                            Architected and deployed responsive user interface layers that directly interact with generative AI models. Translated raw LLM outputs into clean, dynamic clinical dashboards. Implemented smooth interactive animations using Framer Motion and built a client-side retention analytics pipeline via Mixpanel.
                         </p>
                         <div
                             className='flex flex-row justify-start mx-5'
@@ -146,7 +146,7 @@ function Work({ref, currentTab, setCurrentTab}) {
                         <p
                             className='text-gray-800 dark:text-white mx-5'
                         >
-                            Online solution for restaurants to create digital menus for their customers to order from on site.
+                            Re-engineered a core enterprise administration dashboard from scratch. Greatly improved UI responsiveness and performance for high-volume catalog data management. Built secure verification forms and dynamic item display cards with robust client-side validation rules.
                         </p>
                         <div
                             className='flex flex-row justify-start mx-5'
@@ -176,8 +176,7 @@ function Work({ref, currentTab, setCurrentTab}) {
                         <p
                             className='text-gray-800 dark:text-white mx-5'
                         >
-                            After finishing bootcamp I applied to be a Teacher Assistant and was accepted. I helped students with their projects and homework.
-                            Also tutored friends and family in coding.
+                            Conducted technical code reviews and debugging sessions for engineering students navigating full-stack web development. Unblocked complex logic issues and reinforced clean architectural patterns in React, Node.js, and relational/non-relational database structures.
                         </p>
                         <div
                             className='flex flex-row justify-start mx-5'
@@ -189,90 +188,6 @@ function Work({ref, currentTab, setCurrentTab}) {
                             <FaDatabase className='text-white scale-150 m-2'/>
                             <SiApollographql className='text-white scale-150 m-2' />
                             <SiMongodb className='text-white scale-150 m-2' />
-                        </div>
-                    </div>
-                    <div
-                        className='bg-blue-600 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
-                    >
-                        <div
-                            className='flex flex-row justify-between w-full'
-                        >
-                        <h1
-                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
-                        >
-                            Cannablue
-                        </h1>
-                        <h1
-                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
-                        >
-                            Work
-                        </h1>
-                        </div>
-                        <p
-                            className='text-gray-800 dark:text-white mx-5'
-                        >
-                            Delivery service for cannabis products in the Bay Area and South Lake Tahoe. I helped with the website and the app.
-                            Trained new employees for driver, inventory and dispatcher/ customer service roles.
-                        </p>
-                    </div>
-                    <div
-                        className='bg-orange-400 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
-                    >
-                        <div
-                            className='flex flex-row justify-between w-full'
-                        >
-                        <h1
-                            className='text-2xl mx-5 font-bold text-gray-800 dark:text-white'
-                        >
-                            Collaboration Station
-                        </h1>
-                        <h1
-                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
-                        >
-                            Full Stack - Personal Project
-                        </h1>
-                        </div>
-                        <p
-                            className='text-gray-800 dark:text-white mx-5'
-                        >
-                            Web app that allows users to collaborate on projects in real time.
-                        </p>
-                        <div
-                            className='flex flex-row justify-start mx-5'
-                        >
-                            <FaReact className='text-white scale-150 m-2' />
-                            <RiTailwindCssFill className='text-white scale-150 m-2' />
-                            <FaNodeJs className='text-white scale-150 m-2' />
-                            <FaDatabase className='text-white scale-150 m-2'/>
-                            <FaFigma className='text-white scale-150 m-2' />
-                        </div>
-                    </div>
-                    <div
-                        className='bg-green-400 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
-                    >
-                        <div
-                            className='flex flex-row justify-between w-full'
-                        >
-                        <h1
-                            className='text-2xl font-bold text-gray-800 dark:text-white mx-5'
-                        >
-                            Shopify Projects
-                        </h1>
-                        <h1
-                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
-                        >
-                            Personal Project
-                        </h1>
-                        </div>
-                        <p
-                            className='text-gray-800 dark:text-white mx-5'
-                        >
-                            Created 2 different Shopify stores for personal AI generated products with Printify.
-                        </p>
-                        <div
-                            className='flex flex-row justify-start mx-5'
-                        >
-                            <FaShopify className='text-white scale-150 m-2' />
                         </div>
                     </div>
                 </div>
