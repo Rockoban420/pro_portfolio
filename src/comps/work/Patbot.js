@@ -2,7 +2,6 @@ import React from 'react';
 import ParenteAI from '../../assets/ParenteAI.png';
 import Pat from '../../assets/Pat.png';
 import Image2 from '../../assets/image2.jpg';
-import { motion } from 'framer-motion';
 
 const Patbot = ({setCurrentTab}) => {
     return (
@@ -74,7 +73,7 @@ const Patbot = ({setCurrentTab}) => {
             <div
                 className='mt-10'
             >
-                <img src={ParenteAI}></img>
+                <img alt='parente' src={ParenteAI}></img>
             </div>
             <div
                 style={{

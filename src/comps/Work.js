@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import Patbot from './work/Patbot';
 import {
     FaReact,
     FaNodeJs,
@@ -9,9 +8,6 @@ import {
     FaCss3,
     FaHtml5,
     FaPython,
-    FaJs,
-    FaGithub,
-    FaJava,
     FaFigma,
 } from 'react-icons/fa';
 
