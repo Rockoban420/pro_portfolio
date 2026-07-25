@@ -3,12 +3,10 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import {
     FaReact,
     FaNodeJs,
-    FaShopify,
     FaDatabase,
     FaCss3,
     FaHtml5,
     FaPython,
-    FaFigma,
     FaTable,
     FaGoogle,
 } from 'react-icons/fa';
