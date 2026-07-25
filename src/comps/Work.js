@@ -9,6 +9,8 @@ import {
     FaHtml5,
     FaPython,
     FaFigma,
+    FaTable,
+    FaGoogle,
 } from 'react-icons/fa';
 
 import { RiTailwindCssFill, } from 'react-icons/ri';
@@ -54,6 +56,36 @@ function Work({ref, currentTab, setCurrentTab}) {
                 <div
                     className="grid gap-x-4 gap-y-2 md:grid-cols-2 mx-5 mb-10 grid-cols-1"
                 >
+                    <div
+                        className='bg-red-800 bg-opacity-50 border border-gray-300 my-2 py-[15%] rounded-[20px]'
+                    >
+                        <div
+                            className='flex flex-row justify-between w-full'
+                        >
+                        <h1
+                            className='text-2xl mx-5 font-bold text-gray-800 dark:text-white'
+                        >
+                            BCI - Bank of Credit and Investments of Chile
+                        </h1>
+                        <h1
+                            className='text-sm mx-5 items-center align-middle text-gray-800 dark:text-white'
+                        >
+                            UX Analyst, Problem Engineer
+                        </h1>
+                        </div>
+                        <p
+                            className='text-gray-800 dark:text-white mx-5'
+                        >
+                            Started by analyzing user feedback, then compared that to their session events using Dynatrace. Then I moved on to analyzing and resolving problem tickets with internal developer teams.
+                        </p>
+                        <div
+                            className='flex flex-row justify-start mx-5'
+                        >
+                            <FaTable className='text-white scale-150 m-2' />
+                            <FaGoogle className='text-white scale-150 m-2' />
+
+                        </div>
+                    </div>
                     <div
                         className='bg-blue-400 bg-opacity-50 border shadow-lg my-2 py-[15%] rounded-[20px]'
                     >
